@@ -95,7 +95,7 @@ public class AnimalSingleton {
                 return new WalkStrategy();
             case "sneak":
                 return new SneakStrategy();
-            case "Fly":
+            case "fly":
                 return new FlyStrategy();
         }
         return null;
